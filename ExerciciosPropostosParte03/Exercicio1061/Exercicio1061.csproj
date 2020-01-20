@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AF338875-53F0-430D-B9C0-01F03DD0E19C}</ProjectGuid>
+    <ProjectGuid>{327A7498-8313-43E7-9761-8734D7DBD4B7}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PrimeiroProjeto</RootNamespace>
-    <AssemblyName>PrimeiroProjeto</AssemblyName>
+    <RootNamespace>Exercicio1061</RootNamespace>
+    <AssemblyName>Exercicio1061</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EstruturaSequencial\FuncoesMatematicas.cs" />
-    <Compile Include="EstruturaSequencial\ProcessamentoDeDadosECast.cs" />
-    <Compile Include="EstruturaSequencial\SaidaDeDados.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

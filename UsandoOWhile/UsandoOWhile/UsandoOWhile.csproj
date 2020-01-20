@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{AF338875-53F0-430D-B9C0-01F03DD0E19C}</ProjectGuid>
+    <ProjectGuid>{B8EE354B-8CEE-41CA-8BA4-276F8E7B23D5}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>PrimeiroProjeto</RootNamespace>
-    <AssemblyName>PrimeiroProjeto</AssemblyName>
+    <RootNamespace>UsandoOWhile</RootNamespace>
+    <AssemblyName>UsandoOWhile</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,9 +43,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="EstruturaSequencial\FuncoesMatematicas.cs" />
-    <Compile Include="EstruturaSequencial\ProcessamentoDeDadosECast.cs" />
-    <Compile Include="EstruturaSequencial\SaidaDeDados.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
